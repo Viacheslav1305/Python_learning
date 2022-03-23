@@ -1,0 +1,11 @@
+# Создать список из вторых символов каждого элемента списка
+
+greetings = ['hello', 'hi', 'hey', 'hola']
+# List Comprehension
+new_list = [letter[1] for letter in greetings]
+print(new_list)
+# через цикл for
+new_list_2 = []
+for i in greetings:
+    new_list_2.append(i[1])
+print(new_list_2)

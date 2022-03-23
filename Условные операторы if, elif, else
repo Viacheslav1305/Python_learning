@@ -1,0 +1,7 @@
+# Вывод на печать строки в зависимости от введного числа
+
+user_input = input('Enter any number')
+if user_input == '7':
+    print('7 is a lucky number! Today is your lucky day!')
+else:
+    print('Thank you! Have a nice day!')

@@ -1,0 +1,12 @@
+# Создать список из рандомных чисел, пока не будет сгенерировано число 7
+
+from random import randint
+
+a = [randint(1, 10) for i in range(randint(1, 10))]
+b = []
+for i in a:
+    if i != 7:
+        b.append(i)
+    else:
+        break
+print(b)
